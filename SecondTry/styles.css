@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav{
+    display: flex;
+ /* border: 1px solid; */
+ justify-content: space-evenly;
+
+}
+header{
+    color: #FFABff;
+    background-color: rgb(78, 16, 247);
+    border: 1px solid;
+    border-radius: 5px;
+    /* text-decoration: underline red; */
+}
+header h1{
+ text-shadow: #FFABff;
+ text-decoration: underline #FFABff wavy 1.5px;
+ text-shadow: #FFABff;
+ font-style: italic;
+ font-weight: 100;
+}
+
+
+#navsec{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid; */
+    width:50%;
+    align-items: center;
+
+}
+main{
+    border:1px solid;
+    /* margin: 0; */
+}
+h2{
+    text-decoration: underline grey dashed 1px;
+    /* letter-spacing: 1px; */
+    font-weight: 200;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h3{
+    text-decoration: underline black dotted 0.5px;
+}
+article{
+    display: flex;
+}
